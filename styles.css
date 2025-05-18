@@ -1,0 +1,352 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family:"Montserrat";
+}
+
+.mainDiv
+{
+    display: flex;
+
+}
+
+
+.heading
+{
+    color:#4E5150 ;
+    font-weight: 600;
+    font-size:36px;
+    margin-left:250px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.contactDiv
+{
+    margin-left: 250px;
+}
+
+.contactHeading, .shippingHeading
+{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333333; 
+}
+
+#email, #phone, #name, #address, #city, #country,#postal 
+{
+    border:none;
+    outline: none;
+    flex:1;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 5px;
+    color: #4F4F4F;
+    font-size:12px;
+
+}
+
+
+.emailDiv
+{
+    display: flex;
+    border:1px solid #828282;
+    width:465px;
+    height:56px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow:hidden;
+}
+
+.fa-envelope, .fa-phone, .fa-user, .fa-house, .fa-city, .fa-earth-americas, .fa-envelopes-bulk
+{
+    margin:20px;
+    color:#828282;
+}
+
+.phoneDiv
+{   display: flex;
+    border:1px solid #828282;
+    width: 465px;
+    height: 56px;
+    margin-bottom: 70px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.nameDiv
+{
+        display: flex;
+        border: 1px solid #828282;
+        width: 465px;
+        height: 56px;
+        margin-bottom:20px;
+        border-radius: 12px;
+        overflow: hidden;
+}
+
+.userSpan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height:25px;
+    background-color: red;
+    margin-left:15px;
+    margin-top:15px;
+    margin-right: 20px;
+    background-color:#828282;
+    border-radius: 50%;
+}
+
+.addressDiv {
+    display: flex;
+    border: 1px solid #828282;
+    width: 465px;
+    height: 56px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.cityDiv {
+    display: flex;
+    border: 1px solid #828282;
+    width: 465px;
+    height: 56px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+select {
+    font-family: "Montserrat";
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #828282;
+}
+
+.countryDiv
+{
+    display: flex;
+    border: 1px solid #828282;
+    width: 217px;
+    height: 56px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-right: 31px;
+}
+
+.postalDiv {
+    display: flex;
+    border: 1px solid #828282;
+    width: 217px;
+    height: 56px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.selectDiv, .pos
+{
+    display: flex;
+}
+
+
+
+.fa-user
+{
+    color:white;
+}
+
+::-webkit-input-placeholder
+{
+    font-family:"Montserrat";
+    font-weight:600;
+    font-size:16px;
+}
+
+#name::-webkit-input-placeholder
+{
+    color: #333333;
+}
+
+.continue
+{
+    width:166px;
+    height:54px;
+    border-radius: 12px;
+    background-color: #F2994A;;
+    border:none;
+    font-family:"Montserrat";
+    font-weight:600;
+    font-size:16px;
+    color:white;
+    margin: 50px 0 20px 300px;
+}
+
+
+footer
+{   display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:150px;
+    margin-bottom:20px;
+}
+
+.info
+{
+    font-family:"Montserrat";
+    font-weight:700;
+    font-size:14px;
+    color:#BDBDBD;
+}
+
+.productInfo
+{
+    width: 400px;
+    height: 580px;
+    background-color:#F2F2F2;
+    margin-left: 150px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.connectionDiv
+{
+    display: flex;
+}
+
+.productOne, .productTwo
+{
+    background-color:#F2F2F2;
+     display: flex;
+     
+}
+
+.productTwo
+{
+    padding-bottom:80px;
+}
+
+
+
+
+.firstImage, .secondImage
+{
+    width: 150px;
+    height: 150px;
+    margin:40px 0 0 30px;
+    border-radius:20px;
+}
+
+.discount
+{
+margin-right:15px;
+}
+
+.firstImageText, .secondImageText
+{
+    background-color: #F2F2F2;
+    margin:40px 50px 0 30px;
+}
+
+
+
+.numberContainer
+{   width:150px;
+    margin-top:48px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    padding-left:8px;
+
+}
+
+.productNumber
+{
+    width:80px;
+    height:52px;
+    border:none;
+    outline: none;
+    background-color: #F2F2F2;;
+    text-align: center;
+}
+
+#minus, #plus
+{
+    width:21px;
+    height: 21px;
+    background-color: #E0E0E0;
+    border:none;
+    border-radius:4px;
+    color:#828282;
+}
+
+.productName
+{
+    margin-bottom:10px;
+}
+
+.discount
+{
+    color:#F2994A;
+    font-size:16px;
+}
+
+.price
+{
+    color:#4E5150;
+    font-size:12px;
+    text-decoration: line-through;
+
+}
+
+::placeholder
+{
+    color:#333333;
+}
+
+.details
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width:327px;
+    height:40px;
+    margin: 0 40px;
+        border-top: 1px solid #BDBDBD;
+        border-bottom:1px solid #BDBDBD;
+    }
+
+.total
+{
+    display: flex;
+    justify-content: space-between;
+   width:327px;
+    margin:10px 40px;
+}
+
+.shipping, .all
+{
+    font-size: 18px;
+    color:#333333;
+}
+
+.cost{
+    font-size:14px;
+    color: #333333;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1 class="heading">Checkouts</h1>
+    </header>
+    <main>
+        <div class="mainDiv">
+            <div class="contactDiv">
+            <h1 class="contactHeading">Contact Information</h1>
+            <label for="email"> Email </label>
+            <div class="emailDiv"> <i class="fa-solid fa-envelope"></i><input type="email" name="email" id="email"
+                    placeholder="Enter your email..."> </div>
+            <label for="phone"> Phone</label>
+            <div class="phoneDiv"><i class="fa-solid fa-phone"></i><input type="text" name="phone" id="phone" placeholder="Enter your phone..."></div>
+     <h1 class="shippingHeading"> Shipping address </h1>
+     <label for="fullName">Full name</label>
+     <div class="nameDiv"> <span class="userSpan"><i class="fa-regular fa-user"></i></span> <input type="text" name="name" id="name" placeholder="Rodney Cotton">
+            </div>
+             <label for="address">Address</label>
+     <div class="addressDiv"> <i class="fa-sharp fa-solid fa-house"></i> <input type="text" name="address" id="address" placeholder="Your Address..">
+            </div>
+             <label for="city">Your city</label>
+     <div class="cityDiv"><i class="fa-solid fa-city"></i> <input type="text" name="city" id="city" placeholder="Your city..">
+            </div>
+           
+          
+            <div class="selectDiv">
+           <div class="connectionDiv"> 
+           <div> <label for="country">Country</label> 
+            <div class="countryDiv"> <i class="fa-solid fa-earth-americas"></i>
+         <select id="country">
+         <option value="option" id="countryOption"> Your country</option>
+       </select> 
+       </div></div>
+   <div><label for="country">Postal code</label> 
+     <div class="postalDiv">
+        <i class="fa-solid fa-envelopes-bulk"></i>
+        <input type="text" name="postal" id="postal" placeholder="Your postal code..">
+      </div>
+      </div>
+            </div>
+         </div>  
+         <label for="checkbox"><input type="checkbox" name="check" value="check" id="checkbox"> Save this information for next time</label>
+         <button class="continue">Continue</button> 
+    </div>
+ <div class="productInfo">
+<div class="productOne"> 
+<img src="./photo1.png" class="firstImage">
+<div class="firstImageText"> 
+    <p class="productName">Vintage Backpack </p>
+<span class="discount">$54.99</span>  <span class="price">$94.99</span>
+<div class="numberContainer">
+    <button id="minus">-</button>
+    <input type="text" name="" id="" class="productNumber" placeholder="1">
+    <button id="plus">+</button>
+</div>
+</div>
+</div>
+<div class="productTwo">
+  <img src="./photo2.png" class="secondImage">
+  <div class="secondImageText">
+    <p class="productName"> Levi Shoes</p>
+    <span class="discount">$74.990</span> <span class="price">$124.99</span>
+    <div class="numberContainer"> 
+    <button id="minus">-</button>
+    <input type="text" name="" id="" class="productNumber" placeholder="1">    
+    <button id="plus">+</button>
+    </div>
+  </div>
+</div>
+<p class="details"> <span class="shipping">Shipping</span> <span class="cost"> 19$ </span></p>
+<p class="total"><span class="all">Total</span> <span class="cost">$148.98</span></p>
+
+</div>
+
+
+
+</div>
+    </main>
+<footer>
+    <p class="info">created by username - devChallenges.io</p>
+</footer>
+</body>
+</html>
